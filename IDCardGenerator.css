@@ -1,0 +1,145 @@
+header{
+    width:750px;
+    height:40px;
+    background-color: darkblue;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color:white;
+    font-size: 26px;
+    padding-top: 7px;
+    border-radius: 10px 10px 0 0;
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width:750px;
+    height:460px;
+    border:1px solid rgb(153, 148, 148);
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.bodyCont{
+    width:750px;
+    height:412px;
+    margin: 0px;
+    margin-left: 0px;
+    border-radius: 0 0 10px 10px;
+}
+
+.formCont{
+    width:374px;
+    height:412px;
+    float:left;
+    border-right: 1px solid rgb(153, 148, 148);
+    background-color: white;
+    border-radius: 0 0 0 10px;
+    align-items: center;
+}
+
+.cardCont{
+    width:375px;
+    height:412px;
+    float:right;
+    background-color: white;
+    border-radius: 0 0 10px 0;
+}
+
+.button{
+    background-color: darkblue;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 7px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    margin-left: 86px;
+}
+
+.buttonOver{
+    background-color: rgb(96, 148, 200);
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    margin-left: 86px;
+}
+
+.card > div:first-child {  
+  width: 116px;
+  float: left;
+  border-radius: 5px 0 0 5px;
+  background-color: rgb(230, 255, 255);
+  height: 150px;
+  margin-left:20px;
+  margin-top:20px;
+  margin-right: 0px;
+  border-top: 1px solid rgb(153, 148, 148);
+  border-left: 1px solid rgb(153, 148, 148);
+  border-bottom: 1px solid rgb(153, 148, 148);
+  box-shadow:2px 3px 2px 1px black;
+  background-image: linear-gradient(lightblue,darkblue);
+}
+
+.card > div:last-child {  
+  width: 219px;
+  float:left;
+  border-radius: 0 5px 5px 0;
+  border-top: 1px solid rgb(153, 148, 148);
+  border-right: 1px solid rgb(153, 148, 148);
+  border-bottom: 1px solid rgb(153, 148, 148);
+  border-left: 1px solid rgb(153, 148, 148);
+  background-color: rgb(244, 244, 244);
+  height: 150px;
+  margin-top: 20px;
+  box-shadow:2px 3px 2px 1px black;
+}
+
+.cardTitle{
+    text-align : center;
+    font-weight:bold;
+    padding-top:30px;
+    font-size:17px;
+    font-family:sans-serif;
+}
+
+.spicture{
+    height:110px;
+    width:96px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.sname{
+    font-family: Verdana;
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.heading{
+    color:darkblue;
+    text-align:center;
+    font-size:17px;
+    font-family:verdana;
+    font-weight:bold;
+}
+
+.label{
+    margin-left: 86px;
+    font-family:sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.input{
+    border:1px solid grey;
+    height:20px;
+    margin-left:85px;
+    border-radius:5px;
+    background-color:#e6ffff;
+}
