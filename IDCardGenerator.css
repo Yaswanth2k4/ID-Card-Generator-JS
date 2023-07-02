@@ -138,23 +138,30 @@ body{
 }
 
 .input{
-    border:1px solid grey;
+    border:none;
+    width:150px;
+    border-left:none;
+    border-right: none;
     height:20px;
-    margin-left:85px;
-    border-radius:5px;
+    margin-left:5px;
     background-color:#e6ffff;
 }
 
-.input-icons i{
-    position: absolute;
+input:focus{
+    outline:none;
 }
 
-.input-icons {
-    margin:0px;
+.div {
+    height:23px;
+    width:182px;
+    background-color:#e6ffff;
+    margin-left: 85px;
+    border:1px solid grey;
+    display:flex;
+    border-radius:5px;
 }
-  
+
 .icon {
-    padding: 5px;
-    margin-bottom:0px;
-    margin-left:85px;
+    padding-left: 6px;
+    padding-top:4px;
 }
