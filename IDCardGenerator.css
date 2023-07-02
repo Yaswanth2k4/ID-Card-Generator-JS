@@ -144,3 +144,17 @@ body{
     border-radius:5px;
     background-color:#e6ffff;
 }
+
+.input-icons i{
+    position: absolute;
+}
+
+.input-icons {
+    margin:0px;
+}
+  
+.icon {
+    padding: 5px;
+    margin-bottom:0px;
+    margin-left:85px;
+}
