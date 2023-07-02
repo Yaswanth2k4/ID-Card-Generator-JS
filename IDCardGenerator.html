@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="IDCardGenerator.css">
+        <link rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body>
 
@@ -14,27 +15,34 @@
                 const formInputs=[
                     {
                         label:"Enter Name :",
-                        fname:"name"
+                        fname:"name",
+                        iconClass:"fa fa-user icon"
                     },
                     {
                         label:"Enter College Name :",
-                        fname:"college"
+                        fname:"college",
+                        iconClass:"fa fa-building icon"
                     },
                     {
                         label:"Enter Location :",
-                        fname:'location'
+                        fname:'location',
+                        iconClass:"fa fa-globe icon"
                     }
                 ];
-    
+
                 for(let formInput of formInputs){
                     const label=document.createElement('p');
                     label.className='label';
                     label.innerText=formInput.label;
-                    const br=document.createElement('br');
+                    const div=document.createElement('div');
+                    div.className='input-icons';
                     const input=document.createElement('input');
                     input.name=formInput.fname;
                     input.className='input';
-                    document.getElementById('form').append(label,br,input,br);
+                    const i=document.createElement('i');
+                    i.className=formInput.iconClass;
+                    div.append(i,input);
+                    document.getElementById('form').append(label,div);
                 }
     
                 const label=document.createElement('p');
